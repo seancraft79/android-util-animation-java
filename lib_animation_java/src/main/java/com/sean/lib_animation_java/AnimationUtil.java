@@ -7,8 +7,7 @@ import android.animation.ValueAnimator;
 import android.graphics.Color;
 import android.view.View;
 
-public class ColorAnimation {
-
+public class AnimationUtil {
     public void colorAnimation(String fromColor, String toColor, float valueFrom, float valueTo, long animDuration, final View animView) {
         final float[] from = new float[3],
                 to =   new float[3];
